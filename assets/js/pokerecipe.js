@@ -19,7 +19,7 @@ var getPokeInfo = async function (pokemonName) {
       pokemonInfo(data);
   } else {
       var modal = document.querySelector("#pokemon-error");
-      modal.showModal();
+      modal.style.display = "block";
   }
 };
 
@@ -68,7 +68,7 @@ var getRecipe = async function (minCal, maxCal) {
       recipeInfo(data);
   } else {
       var modal = document.querySelector("#recipe-error");
-      modal.showModal();
+      modal.style.display = "block";
   }
 };
 
@@ -108,6 +108,7 @@ var retrieveRecipeUrl2 = async function (recipeID2) {
     const response = await fetch(apiUrl2)
     if (response.ok) {
       const data = await response.json()
+      console.log(data)
       linkToRecipe2(data);
     } else {
         var modal = document.querySelector("#recipe-error");
