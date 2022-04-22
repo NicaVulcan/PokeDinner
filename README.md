@@ -11,7 +11,7 @@ A web application that allows user to input the name of a Pokémon, and returns 
 - [PokéApi](https://pokeapi.co/)
 - [Spoonacular Recipe Search API](https://spoonacular.com/food-api)
 ## Website
-[PokeDinner](https://vinssm.github.io/PokeDinner/)
+[PokeDinner](https://nicavulcan.github.io/PokeDinner/)
 ![Img coming soon](assets/images/pokedinner.png) 
 ## Limitations
 - Spoonacular Recipe Search API is limited to 150 fetch requests per day
