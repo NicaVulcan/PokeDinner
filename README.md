@@ -10,6 +10,7 @@ A web application that allows user to input the name of a Pokémon, and returns 
 - NES CSS
 - [PokéApi](https://pokeapi.co/)
 - [Spoonacular Recipe Search API](https://spoonacular.com/food-api)
+- Local Storage
 ## Website
 [PokeDinner](https://nicavulcan.github.io/PokeDinner/)
 ![Img coming soon](assets/images/pokedinner.png) 
